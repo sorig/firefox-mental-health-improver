@@ -1,0 +1,8 @@
+@-moz-document domain(youtube.com) {
+    #related { display: none; }
+}
+
+@-moz-document domain(twitter.com) {
+    #timeline { display: none; }
+    .wtf-module { display: none !important; }
+}
