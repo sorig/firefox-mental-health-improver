@@ -1,8 +1,15 @@
 @-moz-document domain(youtube.com) {
-    #related { display: none; }
+  #related,
+  .ytd-browse {
+    display: none !important;
+  }
 }
 
 @-moz-document domain(twitter.com) {
-    #timeline.content-main { display: none; }
-    .wtf-module { display: none !important; }
+  #timeline.content-main {
+    display: none;
+  }
+  .wtf-module {
+    display: none !important;
+  }
 }
